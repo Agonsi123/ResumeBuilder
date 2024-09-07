@@ -28,12 +28,12 @@ const Experience = () => {
             
             <form onSubmit={handleSubmit} className="mb-4 md:flex md:flex-wrap md:justify-between">
                 
-                <div className='flex flex-col mb-4 w-[18.6rem] md:w-1/2'>
+                <div className='flex flex-col mb-4 w-[19.6rem] md:w-1/2'>
                     <label className='mb-2 font-bold md:text-lg text-grey-darkest'>Company Name</label>
                     <input className='border py-2 px-3 text-[12px] text-grey-darkest' type="text" name='companyName' value={formData.companyName} onChange={handleChange}
                     placeholder='Name of your company' />
                 </div>
-                <div className='flex flex-col mb-4 w-[18.6rem] md:w-1/2 md:ml-[15.1rem] md:mt-[-5.5rem]'>
+                <div className='flex flex-col mb-4 w-[19.6rem] md:w-1/2 md:ml-[15.1rem] md:mt-[-5.5rem]'>
                     <label className='mb-2 font-bold md:text-lg text-grey-darkest'>Designation</label>
                     <input className='border py-2 px-3 text-[12px] text-grey-darkes' type="text" name='designation' value={formData.designation} onChange={handleChange}
                     placeholder='e.g product manager' />
@@ -48,11 +48,11 @@ const Experience = () => {
                     <input className='border py-2 px-3 text-[12px] text-grey-darkest' type="date" name='endDate' value={formData.endDate} onChange={handleChange}
                     placeholder='slect date' />
                 </div>
-                <div className='flex flex-col mb-4 w-[18.6rem] md:w-1/2'>
+                <div className='flex flex-col mb-4 w-[19.6rem] md:w-1/2'>
                     <label className='mb-2 font-bold md:text-lg text-grey-darkest'>Work Description</label>
                     <textarea className='border py-6 px-3 text-[12px] text-grey-darkest' name='workDescription' value={formData.workDescription} onChange={handleChange} placeholder='List what you do' />
                 </div>
-                <div className='flex flex-col mb-4 w-[18.6rem] md:w-1/2 md:ml-[15.1rem] md:mt-[-8.7rem]'>
+                <div className='flex flex-col mb-4 w-[19.6rem] md:w-1/2 md:ml-[15.1rem] md:mt-[-8.7rem]'>
                     <label className='mb-2 font-bold md:text-lg text-grey-darkest'>Achievements</label>
                     <textarea className='border py-6 px-3 text-[12px] text-grey-darkest' name='achievements' value={formData.achievements} onChange={handleChange} placeholder='List your achievemnts' />
                 </div>

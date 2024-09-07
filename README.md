@@ -1,3 +1,9 @@
+This is a project done for Women in DEFI in completion of the 3 months training on web2 JavaScript.
+It is an App for building your resume.
+
+
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.

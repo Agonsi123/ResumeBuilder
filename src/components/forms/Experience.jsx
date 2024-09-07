@@ -18,7 +18,7 @@ const Experience = () => {
 
     const handleSubmit = () => {
         alert('form submitted successfully');
-        console.log(formData);
+        // console.log(formData);
     };  
   return (
     <div className='h-screen bg-gradient-to-r from-[#23e27c] to-[#1369b9]'>

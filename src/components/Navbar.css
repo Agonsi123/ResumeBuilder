@@ -1,11 +1,11 @@
 .nav{
     position: relative;
-    left: 30%;
+    left: 34%;
     display: flex;
     justify-content: space-between;
     padding: 8px 20px;
     text-align: center;
-    width: 34%;
+    width: 45%;
     font-size: 1.3rem;
     color: whitesmoke;
 }

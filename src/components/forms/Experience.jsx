@@ -43,7 +43,7 @@ const Experience = () => {
                     <input className='border py-2 px-3 text-[12px] text-grey-darkest' type="date" name='startDate' value={formData.startDate} onChange={handleChange}
                     placeholder='select date' />
                 </div>
-                <div className='flex flex-col mb-4 w-1/2 ml-[10rem] mt-[5.4rem] md:ml-[15.1rem] md:mt-[-5.5rem]'>
+                <div className='flex flex-col mb-4 w-1/2 ml-[10rem] mt-[-5.4rem] md:ml-[15.1rem] md:mt-[-5.5rem]'>
                     <label className='mb-2 font-bold md:text-lg text-grey-darkest'>End Date</label>
                     <input className='border py-2 px-3 text-[12px] text-grey-darkest' type="date" name='endDate' value={formData.endDate} onChange={handleChange}
                     placeholder='slect date' />

@@ -42,6 +42,10 @@ const Experience = () => {
                     <label className='mb-2 font-bold md:text-lg text-grey-darkest'>Work Description</label>
                     <textarea className='border py-6 px-3 text-[12px] text-grey-darkest' name='workDescription' value={formData.workDescription} onChange={handleChange} placeholder='List what you do' />
                 </div>
+                <div className='flex flex-col mb-4 w-[19.6rem] md:w-1/2 md:ml-[15.1rem] md:mt-[-8.7rem]'>
+                    <label className='mb-2 font-bold md:text-lg text-grey-darkest'>Achievements</label>
+                    <textarea className='border py-6 px-3 text-[12px] text-grey-darkest' name='achievements' value={formData.achievements} onChange={handleChange} placeholder='List your achievemnts' />
+                </div>
                 <div className='flex flex-col mb-4 w-[19.6rem] md:w-1/2'>
                     <label className='mb-2 font-bold md:text-lg text-grey-darkest'>Start Date</label>
                     <input className='border py-2 px-3 text-[12px] text-grey-darkest' type="date" name='startDate' value={formData.startDate} onChange={handleChange}
@@ -51,10 +55,6 @@ const Experience = () => {
                     <label className='mb-2 font-bold md:text-lg text-grey-darkest'>End Date</label>
                     <input className='border py-2 px-3 text-[12px] text-grey-darkest' type="date" name='endDate' value={formData.endDate} onChange={handleChange}
                     placeholder='slect date' />
-                </div>
-                <div className='flex flex-col mb-4 w-[19.6rem] md:w-1/2 md:ml-[15.1rem] md:mt-[-8.7rem]'>
-                    <label className='mb-2 font-bold md:text-lg text-grey-darkest'>Achievements</label>
-                    <textarea className='border py-6 px-3 text-[12px] text-grey-darkest' name='achievements' value={formData.achievements} onChange={handleChange} placeholder='List your achievemnts' />
                 </div>
                 <button className='bg-gradient-to-r from-[#23e27c] to-[#1369b9] hover:bg-[#1369b9] text-white mb-4 w-[19.6rem] rounded-lg md:w-[12.7rem] py-2' type="submit">Save</button>
                 

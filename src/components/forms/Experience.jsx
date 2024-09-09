@@ -39,6 +39,10 @@ const Experience = () => {
                     placeholder='e.g product manager' />
                 </div>
                 <div className='flex flex-col mb-4 w-[19.6rem] md:w-1/2'>
+                    <label className='mb-2 font-bold md:text-lg text-grey-darkest'>Work Description</label>
+                    <textarea className='border py-6 px-3 text-[12px] text-grey-darkest' name='workDescription' value={formData.workDescription} onChange={handleChange} placeholder='List what you do' />
+                </div>
+                <div className='flex flex-col mb-4 w-[19.6rem] md:w-1/2'>
                     <label className='mb-2 font-bold md:text-lg text-grey-darkest'>Start Date</label>
                     <input className='border py-2 px-3 text-[12px] text-grey-darkest' type="date" name='startDate' value={formData.startDate} onChange={handleChange}
                     placeholder='select date' />
@@ -47,10 +51,6 @@ const Experience = () => {
                     <label className='mb-2 font-bold md:text-lg text-grey-darkest'>End Date</label>
                     <input className='border py-2 px-3 text-[12px] text-grey-darkest' type="date" name='endDate' value={formData.endDate} onChange={handleChange}
                     placeholder='slect date' />
-                </div>
-                <div className='flex flex-col mb-4 w-[19.6rem] md:w-1/2'>
-                    <label className='mb-2 font-bold md:text-lg text-grey-darkest'>Work Description</label>
-                    <textarea className='border py-6 px-3 text-[12px] text-grey-darkest' name='workDescription' value={formData.workDescription} onChange={handleChange} placeholder='List what you do' />
                 </div>
                 <div className='flex flex-col mb-4 w-[19.6rem] md:w-1/2 md:ml-[15.1rem] md:mt-[-8.7rem]'>
                     <label className='mb-2 font-bold md:text-lg text-grey-darkest'>Achievements</label>

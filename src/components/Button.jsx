@@ -1,13 +1,10 @@
 import React from 'react'
-import './Button.css'
 
-const Button = ({text, onClick, className}) => {
+const Button = ({text, onClick}) => {
   return (
-    <div className='btn saveBtn'>
-        <button type='button' onClick={onClick} className={className}>
-            {text}
-        </button>
-    </div>
+    <button className='bg-gradient-to-r from-[#23e27c] to-[#1369b9] hover:bg-[#1369b9] text-white mb-4 w-[18.6rem] rounded w-full py-2' type='button' onClick={onClick}>
+        {text}
+    </button>
   )
 }
 
